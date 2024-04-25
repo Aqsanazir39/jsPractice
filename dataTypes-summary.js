@@ -33,3 +33,26 @@ function myFunction(){
 
 console.log(typeof(heros));
 console.log(typeof myFunction);
+
+// *******************Memory****************************************
+//Stack (Primitive), Heap (Non-Primitive)
+
+
+let myName = "hifa";
+let anotherName = myName;
+anotherName = "hifo"
+
+console.log(myName);
+console.log(anotherName);
+
+
+let userOne = {
+email: "user@google.com",
+upi: "993040"
+}
+
+let userTwo = userOne;
+userTwo.email = "youtube@google.com";
+console.log(userOne.email);
+console.log(userTwo.email);
+
