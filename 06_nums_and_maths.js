@@ -27,3 +27,4 @@ console.log(Math.ceil(4.2));
 console.log(Math.floor(7.8));
 
 console.log(Math.random() * 10 + 1  );
+
